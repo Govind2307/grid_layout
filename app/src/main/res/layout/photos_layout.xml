@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#5A5A5A"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/a"
+            android:id="@+id/image"
+            android:scaleType="fitXY"/>
+
+
+        <TextView
+            android:id="@+id/hed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Natural Beauty"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
